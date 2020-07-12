@@ -17,7 +17,8 @@ class FormUserDetailsComponent extends Component {
             <form className="form">
                 <div id='out'>
                     <div>
-                        <label>First Name:<input type="text" className='form-text' placeholder="First Name" value={values.firstName} onChange={handleChange('firstName')} /></label><p style={{color: 'red', fontSize: 12}}>{values.firstNameError}</p>
+                        <label>First Name:<input type="text" className='form-text' placeholder="First Name" value={values.firstName} 
+                        onChange={handleChange('firstName')} /></label><p style={{color: 'red', fontSize: 12}}>{values.firstNameError}</p>
                     </div>
                     <div>
                         <label className='form-fields'>Last Name:<input type="text" className='form-text' placeholder="Last Name" value={values.LastName} onChange={handleChange('LastName')} /></label><p style={{color: 'red', fontSize: 12}}>{values.LastNameError}</p>
